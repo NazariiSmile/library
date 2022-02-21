@@ -1,0 +1,21 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "mongodb": "^4.2.2",
+    "morgan": "^1.10.0"
+  }
+}
